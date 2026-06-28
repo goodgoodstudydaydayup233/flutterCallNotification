@@ -1,0 +1,33 @@
+name: call_notification_plugin
+description: "Flutter 来电通知插件 — 类似微信音视频通话的完整来电通知能力，支持悬浮通知、全屏来电界面、铃声振动、锁屏显示等。"
+version: 1.0.0
+homepage: https://github.com/goodgoodstudydaydayup233/flutterCallNotification
+repository: https://github.com/goodgoodstudydaydayup233/flutterCallNotification
+issue_tracker: https://github.com/goodgoodstudydaydayup233/flutterCallNotification/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.callnotification.call_notification
+        pluginClass: CallNotificationPlugin
+
+topics:
+  - android
+  - notification
+  - call
+  - voip
+  - system-overlay

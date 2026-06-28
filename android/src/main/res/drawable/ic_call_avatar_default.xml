@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 默认来电头像：灰色圆形 + 人物剪影 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 灰色圆形背景 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#E5E5E5" />
+        </shape>
+    </item>
+    <!-- 人物剪影（使用系统内置联系人图标） -->
+    <item
+        android:drawable="@android:drawable/sym_contact_card"
+        android:gravity="center"
+        android:width="28dp"
+        android:height="28dp"
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</layer-list>
