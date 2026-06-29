@@ -72,14 +72,7 @@
 
 ### 1. 添加依赖
 
-在项目的 `pubspec.yaml` 中添加：
-
-```yaml
-dependencies:
-  call_notification_plugin: ^1.0.0
-```
-
-或使用本地路径引用（开发阶段）：
+使用本地路径引用（开发阶段）：
 
 ```yaml
 dependencies:
